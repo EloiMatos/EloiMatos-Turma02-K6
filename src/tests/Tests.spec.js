@@ -17,7 +17,7 @@ export const options = {
     status_200_OK: ['rate>0.88']
   },
   stages: [
-    { duration: '15s', target: 50 },
+    { duration: '15s', target: 10 },
     { duration: '60s', target: 50 },
     { duration: '15s', target: 100 },
     { duration: '60s', target: 100 },
