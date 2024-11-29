@@ -42,7 +42,6 @@ export default function () {
 
   // Realiza a requisição GET para a API da NASA
   const res = http.get(baseUrl);
-  sleep(1000);
 
   // Adiciona a duração da requisição à métrica de Trend
   getRequestDuration.add(res.timings.duration);
